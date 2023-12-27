@@ -1,3 +1,10 @@
+assets/apple
+assets/custom_emojis
+static_rules.json
+_metadata
+
+# The following is just the default GitHub Python git ignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Mattermost high resolution emojis",
+  "version": "0.1.0",
+  "icons": {
+      "16": "assets/ext-icon.png",
+      "48": "assets/ext-icon.png",
+      "128": "assets/ext-icon.png"
+  },
+  "description": "Make emojis high resolution in Mattermost",
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request" : {
+    "rule_resources": [
+      {
+        "id": "static_rules",
+        "enabled": true,
+        "path": "static_rules.json"
+      }
+  ]
+  },
+  "host_permissions": ["https://chat.channable.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["https://chat.channable.com/*"]
+    }
+  ]
+}
