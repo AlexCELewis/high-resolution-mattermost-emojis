@@ -26,7 +26,10 @@ You also need to clear your cache after installing the extension.
 1. Download the .xpi from the [Google drive folder](https://drive.google.com/drive/folders/1yqfTpCY2Z06wUSGIFchjgLNczIx0GJcx)
 2. Double click/open the .xpi in Firefox
 3. Accept by clicking "Add"
-4. On Mattermost click `ctrl` + `shift` + `r` to refresh clearing the local cache
+4. Click extension icon (looks like a jigsaw puzzle piece)
+5. Click the settings (looks like a cog)
+6. Click "Always Allow on chat.channable.com"
+7. On Mattermost click `ctrl` + `shift` + `r` to refresh clearing the local cache
 
 # For development
 
